@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f8fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.cabecalho {
+    background-color: #1769aa;
+    color: white;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.cabecalho p {
+    font-size: 17px;
+}
+
+
+.introducao {
+    text-align: center;
+    margin: 35px 0 25px;
+}
+
+.introducao h2 {
+    color: #1769aa;
+    margin-bottom: 10px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+}
+
+.card h2 {
+    color: #1769aa;
+    margin-bottom: 25px;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.campo input {
+    padding: 12px;
+    border: 1px solid #b8c7d1;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+}
+
+.campo input:focus {
+    border-color: #1769aa;
+}
+
+.campo small {
+    color: #6b7780;
+    margin-top: 4px;
+}
+
+button {
+    grid-column: 1 / -1;
+
+    background-color: #1769aa;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    padding: 14px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #12558a;
+}
+
+.informacoes {
+    margin-bottom: 50px;
+}
+
+.informacoes h2 {
+    color: #1769aa;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.parametros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.parametro {
+    background-color: white;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.parametro h3 {
+    color: #1769aa;
+    margin-bottom: 8px;
+}
+
+
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.resultado {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #eef7fc;
+    border-left: 5px solid #1769aa;
+    border-radius: 8px;
+}
+
+.resultado h2 {
+    color: #1769aa;
+    margin-bottom: 15px;
+}
+
+.resultado p {
+    margin-bottom: 8px;
+}
+
+.qualidade {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.campo select,
+.campo textarea {
+    padding: 12px;
+    border: 1px solid #b8c7d1;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: "Courier New", monospace;
+    outline: none;
+}
+
+.campo select:focus,
+.campo textarea:focus {
+    border-color: #1769aa;
+}
+
+.resultado.erro {
+    background-color: #fdeeee;
+    border-left-color: #c62828;
+}
+
+.resultado.erro h2 {
+    color: #c62828;
+}
+
+.tabela-matriz {
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.tabela-matriz td {
+    border: 1px solid #b8c7d1;
+    background-color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-family: "Courier New", monospace;
+}
+
+.numero {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1769aa;
+}
